@@ -1,0 +1,19 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+Begin optimization report for: my_dgemv(int, double *, double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /global/homes/u/uyguyguy/vmmul-harness-instructional/dgemv-vectorized.cpp(13,5)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at /global/homes/u/uyguyguy/vmmul-harness-instructional/dgemv-vectorized.cpp(15,9)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between ymm_sum (18:23) and ymm_sum (18:23)
+   LOOP END
+LOOP END
+===========================================================================

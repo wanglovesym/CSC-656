@@ -1,0 +1,54 @@
+Working on problem size N=8388608
+ inside sum_vector problem_setup, N=8388608
+ inside sum_vector perform_sum, N=8388608
+Elapsed time: 31 ms
+N = 8388608, Result = 35184367894528
+Memory Bandwidth Utilization: 25.61%
+Memory Latency: 3.70 ns
+MFLOP/s: 0.27
+ Sum result = 35184367894528
+Working on problem size N=16777216
+ inside sum_vector problem_setup, N=16777216
+ inside sum_vector perform_sum, N=16777216
+Elapsed time: 46 ms
+N = 16777216, Result = 140737479966720
+Memory Bandwidth Utilization: 34.52%
+Memory Latency: 2.74 ns
+MFLOP/s: 0.36
+ Sum result = 140737479966720
+Working on problem size N=33554432
+ inside sum_vector problem_setup, N=33554432
+ inside sum_vector perform_sum, N=33554432
+Elapsed time: 93 ms
+N = 33554432, Result = 562949936644096
+Memory Bandwidth Utilization: 34.15%
+Memory Latency: 2.77 ns
+MFLOP/s: 0.36
+ Sum result = 562949936644096
+Working on problem size N=67108864
+ inside sum_vector problem_setup, N=67108864
+ inside sum_vector perform_sum, N=67108864
+Elapsed time: 188 ms
+N = 67108864, Result = 2251799780130816
+Memory Bandwidth Utilization: 33.79%
+Memory Latency: 2.80 ns
+MFLOP/s: 0.36
+ Sum result = 2251799780130816
+Working on problem size N=134217728
+ inside sum_vector problem_setup, N=134217728
+ inside sum_vector perform_sum, N=134217728
+Elapsed time: 359 ms
+N = 134217728, Result = 9007199187632128
+Memory Bandwidth Utilization: 35.39%
+Memory Latency: 2.67 ns
+MFLOP/s: 0.37
+ Sum result = 9007199187632128
+Working on problem size N=268435456
+ inside sum_vector problem_setup, N=268435456
+ inside sum_vector perform_sum, N=268435456
+Elapsed time: 746 ms
+N = 268435456, Result = 36028796884746240
+Memory Bandwidth Utilization: 34.06%
+Memory Latency: 2.78 ns
+MFLOP/s: 0.36
+ Sum result = 36028796884746240

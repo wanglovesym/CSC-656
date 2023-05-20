@@ -1,0 +1,54 @@
+Working on problem size N=8388608
+ inside sum_indirect problem_setup, N=8388608
+ inside sum_indirect perform_sum, N=8388608
+Elapsed time: 46 ms
+N = 8388608, Result = 137432310016
+Memory Bandwidth Utilization: 17.26%
+Memory Latency: 5.48 ns
+MFLOP/s: 0.18
+ Sum result = 137432310016
+Working on problem size N=16777216
+ inside sum_indirect problem_setup, N=16777216
+ inside sum_indirect perform_sum, N=16777216
+Elapsed time: 78 ms
+N = 16777216, Result = 274932955392
+Memory Bandwidth Utilization: 20.36%
+Memory Latency: 4.65 ns
+MFLOP/s: 0.22
+ Sum result = 274932955392
+Working on problem size N=33554432
+ inside sum_indirect problem_setup, N=33554432
+ inside sum_indirect perform_sum, N=33554432
+Elapsed time: 171 ms
+N = 33554432, Result = 549857587712
+Memory Bandwidth Utilization: 18.57%
+Memory Latency: 5.10 ns
+MFLOP/s: 0.20
+ Sum result = 549857587712
+Working on problem size N=67108864
+ inside sum_indirect problem_setup, N=67108864
+ inside sum_indirect perform_sum, N=67108864
+Elapsed time: 328 ms
+N = 67108864, Result = 1099523768320
+Memory Bandwidth Utilization: 19.37%
+Memory Latency: 4.89 ns
+MFLOP/s: 0.20
+ Sum result = 1099523768320
+Working on problem size N=134217728
+ inside sum_indirect problem_setup, N=134217728
+ inside sum_indirect perform_sum, N=134217728
+Elapsed time: 548 ms
+N = 134217728, Result = 2199049138176
+Memory Bandwidth Utilization: 23.18%
+Memory Latency: 4.08 ns
+MFLOP/s: 0.24
+ Sum result = 2199049138176
+Working on problem size N=268435456
+ inside sum_indirect problem_setup, N=268435456
+ inside sum_indirect perform_sum, N=268435456
+Elapsed time: 1063 ms
+N = 268435456, Result = 4398002806784
+Memory Bandwidth Utilization: 23.90%
+Memory Latency: 3.96 ns
+MFLOP/s: 0.25
+ Sum result = 4398002806784

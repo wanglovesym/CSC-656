@@ -1,0 +1,7 @@
+Data such as running time, number of operations, number of memory accesses, etc. for each algorithm. Generally speaking, MFLOP/s is an indicator to measure the calculation rate of an algorithm, and memory bandwidth utilization and memory latency are also important performance indicators. According to different algorithms and hardware environments, the performance of these indicators will also vary.
+
+Generally speaking, the vector summation algorithm has the best calculation rate because it can use vector instructions to accelerate calculations, and it can also achieve data parallelism and improve CPU utilization. However, the direct summation algorithm needs to access the elements in the array one by one for calculation. There is no way to use vector instructions and data parallelism, and the efficiency is relatively low. The indirect sum algorithm requires indirect access to array elements during calculation, and its performance is between the two.
+
+In the vector summation algorithm and the direct summation algorithm, since they both need to access the elements in the array, their memory bandwidth utilization is relatively high. In contrast, the memory access pattern of the indirect sum algorithm is more random, resulting in lower memory bandwidth utilization.
+
+In the vector sum algorithm and the direct sum algorithm, due to the certain data locality, their memory latency is relatively low. However, the memory access pattern of the indirect sum algorithm is relatively random, which can easily lead to cache misses and high memory latency.

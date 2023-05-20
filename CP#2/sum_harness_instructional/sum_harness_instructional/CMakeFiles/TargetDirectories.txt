@@ -1,0 +1,6 @@
+/www/wwwroot/default/sum_harness_instructional/build/CMakeFiles/benchmark.dir
+/www/wwwroot/default/sum_harness_instructional/build/CMakeFiles/sum_direct.dir
+/www/wwwroot/default/sum_harness_instructional/build/CMakeFiles/sum_vector.dir
+/www/wwwroot/default/sum_harness_instructional/build/CMakeFiles/sum_indirect.dir
+/www/wwwroot/default/sum_harness_instructional/build/CMakeFiles/edit_cache.dir
+/www/wwwroot/default/sum_harness_instructional/build/CMakeFiles/rebuild_cache.dir
